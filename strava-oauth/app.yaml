@@ -1,0 +1,7 @@
+runtime: python37
+
+env: standard
+entrypoint: gunicorn --bind :$PORT --workers 1 --threads 8 --timeout 0 server:app
+
+env_variables:
+  APP_SETTINGS: settings.cfg
