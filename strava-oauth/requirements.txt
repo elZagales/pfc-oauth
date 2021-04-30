@@ -26,7 +26,7 @@ pyasn1-modules==0.2.8
 python-dateutil==2.8.1
 pytz==2019.3
 requests==2.23.0
-rsa==4.0
+rsa==4.7
 six==1.14.0
 stravalib==0.10.2
 units==0.7
